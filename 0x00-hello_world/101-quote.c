@@ -4,15 +4,15 @@
  *
  * Description: print a string;
  *
- * ft_putchar: print chars.
+ * my_str: print chars.
  *
- * @ft_putchar: print chars.
+ * @my_str: print chars.
  *
  * @c: store chars.
  *
  * Return: 1.
  */
-void ft_putchar(char *c)
+void my_str(char *c)
 {
 	while (*c)
 	{
@@ -23,6 +23,6 @@ void ft_putchar(char *c)
 
 int main(void)
 {
-	ft_putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	my_str("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
