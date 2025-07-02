@@ -3,8 +3,11 @@
  * main - Entry point
  *
  * Description: print a string;
+ *
  * ft_putchar: print chars.
+ *
  * @ft_putchar: print chars.
+ *
  * @c: store chars.
  *
  * Return: 1.
